@@ -1,0 +1,14 @@
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\bin\Debug\StokTakipSistemi.exe.config
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\bin\Debug\StokTakipSistemi.exe
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\bin\Debug\StokTakipSistemi.pdb
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.csproj.AssemblyReference.cache
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.csproj.SuggestedBindingRedirects.cache
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.LoginForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.Properties.Resources.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.csproj.GenerateResource.cache
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.csproj.CoreCompileInputs.cache
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.exe
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.pdb
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.MainForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.UserForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.UserModuleForm.resources
