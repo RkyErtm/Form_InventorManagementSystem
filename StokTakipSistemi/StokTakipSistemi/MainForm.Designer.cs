@@ -189,6 +189,7 @@
             this.btnKategoriler.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnKategoriler.TabIndex = 11;
             this.btnKategoriler.TabStop = false;
+            this.btnKategoriler.Click += new System.EventHandler(this.btnKategoriler_Click);
             // 
             // btnMusteriler
             // 
@@ -239,9 +240,10 @@
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainForm";
+            this.Text = "ZarifGiyim";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSiparisler)).EndInit();

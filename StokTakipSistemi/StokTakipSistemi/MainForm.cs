@@ -50,5 +50,10 @@ namespace StokTakipSistemi
         {
             openChildForm(new CustomerForm());
         }
+
+        private void btnKategoriler_Click(object sender, EventArgs e)
+        {
+            openChildForm(new CategoryForm());
+        }
     }
 }

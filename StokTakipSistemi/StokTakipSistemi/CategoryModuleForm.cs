@@ -2,36 +2,42 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+
 namespace StokTakipSistemi
 {
-    public partial class CostumerModuleForm : Form
+    public partial class CategoryModuleForm : Form
     {
         SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\VKFGLB\Documents\dbStokTakip.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand cmd = new SqlCommand();
-        public CostumerModuleForm()
+        public CategoryModuleForm()
         {
             InitializeComponent();
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
         private void btnEkle_Click(object sender, EventArgs e)
         {
+
             try
             {
                 if (MessageBox.Show("Kaydedilsin mi?", "UYARI", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    cmd = new SqlCommand("Insert into tbCustomer(MusteriAdSoyad,MusteriTelefon)Values(@MusteriAdSoyad,@MusteriTelefon)", conn);
-                    cmd.Parameters.AddWithValue("@MusteriAdSoyad", txtMAdSoyad.Text);
-                    cmd.Parameters.AddWithValue("@MusteriTelefon", txtMTel.Text);
+                    cmd = new SqlCommand("Insert into tbCategory(KategoriAd)Values(@KategoriAd)", conn);
+                    cmd.Parameters.AddWithValue("@KategoriAd", txtKategori.Text);
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("Kullanıcı Başarıyla Kaydedildi.");
+                    MessageBox.Show("Kategori Başarıyla Kaydedildi.");
                     Clear();
                 }
             }
@@ -44,8 +50,7 @@ namespace StokTakipSistemi
 
         public void Clear()
         {
-            txtMAdSoyad.Clear();
-            txtMTel.Clear();
+            txtKategori.Clear();
         }
 
         private void bntSil_Click(object sender, EventArgs e)
@@ -55,24 +60,18 @@ namespace StokTakipSistemi
             btnGuncelle.Enabled = false;
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-        }
-
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
             try
-            {               
+            {
                 if (MessageBox.Show("Güncellensin mi?", "UYARI", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    cmd = new SqlCommand("Update tbCustomer set MusteriAdSoyad=@MusteriAdSoyad,MusteriTelefon=@MusteriTelefon where MusteriId LIKE '" + lblMusterId.Text + "'", conn);
-                    cmd.Parameters.AddWithValue("@MusteriAdSoyad", txtMAdSoyad.Text);
-                    cmd.Parameters.AddWithValue("@MusteriTelefon", txtMTel.Text);
+                    cmd = new SqlCommand("Update tbCategory set KategoriAd=@KategoriAd where KategoriId LIKE '" + lblMusterId.Text + "'", conn);
+                    cmd.Parameters.AddWithValue("@KategoriAd", txtKategori.Text);
                     conn.Open();
                     cmd.ExecuteNonQuery();
                     conn.Close();
-                    MessageBox.Show("Müşteri Başarıyla Güncellendi.");
+                    MessageBox.Show("Kategori Başarıyla Güncellendi.");
                     this.Dispose();
                 }
             }
