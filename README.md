@@ -1,5 +1,6 @@
-# Foobar
+# InventoryManagementSystem
 
-Foobar is a Python library for dealing with word pluralization.
+## GirisBilgileri
 
-## Installation
+KullaniciAdi: aaa
+Sifre: aa
