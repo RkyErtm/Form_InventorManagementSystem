@@ -20,3 +20,4 @@ D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\De
 D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.ProductModuleForm.resources
 D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.OrderForm.resources
 D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.OrderModuleForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.WelcomeForm.resources

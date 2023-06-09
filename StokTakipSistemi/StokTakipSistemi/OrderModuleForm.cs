@@ -58,7 +58,7 @@ namespace StokTakipSistemi
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            this.Close();
             LoadCustomer();
         }
 
@@ -170,14 +170,12 @@ namespace StokTakipSistemi
         private void bntSil_Click(object sender, EventArgs e)
         {
             Clear();
-            btnEkle.Enabled = true;
-            btnGuncelle.Enabled = false;
         }
 
         public void GetQty()
         {
             dgvProduct.Rows.Clear();
-            cmd = new SqlCommand("SELECT adet FROM tbProduct where urunId= '" + txtUrunId.Text + "'", conn);
+            cmd = new SqlCommand("SELECT adet FROM tbProduct where id= '" + txtUrunId.Text + "'", conn);
             conn.Open();
             reader = cmd.ExecuteReader();
             while (reader.Read())
@@ -186,11 +184,6 @@ namespace StokTakipSistemi
             }
             reader.Close();
             conn.Close();
-        }
-
-        private void btnGuncelle_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
