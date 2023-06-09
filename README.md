@@ -1,6 +1,5 @@
-#FATURA YÖNETİM SİSTEMİ
+# Foobar
 
-##Giriş_Bilgileri
+Foobar is a Python library for dealing with word pluralization.
 
-Kullanıcı Adı : aaa
-Şifre : aa
+## Installation
