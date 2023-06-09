@@ -1,6 +1,6 @@
-Form_InventorManagementSystem
+#FATURA YÖNETİM SİSTEMİ
 
-Giriş_Bilgileri
+##Giriş_Bilgileri
 
 Kullanıcı Adı : aaa
 Şifre : aa
