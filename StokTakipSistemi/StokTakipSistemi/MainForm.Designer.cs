@@ -166,6 +166,7 @@
             this.btnSiparisler.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnSiparisler.TabIndex = 13;
             this.btnSiparisler.TabStop = false;
+            this.btnSiparisler.Click += new System.EventHandler(this.btnSiparisler_Click);
             // 
             // btnKullanicilar
             // 
@@ -213,6 +214,7 @@
             this.btnUrunler.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnUrunler.TabIndex = 0;
             this.btnUrunler.TabStop = false;
+            this.btnUrunler.Click += new System.EventHandler(this.btnUrunler_Click);
             // 
             // panel2
             // 

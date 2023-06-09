@@ -99,5 +99,10 @@ namespace StokTakipSistemi
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void UserModuleForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

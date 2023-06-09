@@ -16,3 +16,7 @@ D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\De
 D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.CustomerForm.resources
 D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.CategoryForm.resources
 D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.CategoryModuleForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.ProductForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.ProductModuleForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.OrderForm.resources
+D:\github\Form_InventorManagementSystem\StokTakipSistemi\StokTakipSistemi\obj\Debug\StokTakipSistemi.OrderModuleForm.resources
